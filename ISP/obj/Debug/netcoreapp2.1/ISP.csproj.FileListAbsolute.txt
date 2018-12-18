@@ -1,0 +1,11 @@
+/home/imantas/RiderProjects/ISP/ISP/bin/Debug/netcoreapp2.1/ISP.deps.json
+/home/imantas/RiderProjects/ISP/ISP/bin/Debug/netcoreapp2.1/ISP.runtimeconfig.json
+/home/imantas/RiderProjects/ISP/ISP/bin/Debug/netcoreapp2.1/ISP.runtimeconfig.dev.json
+/home/imantas/RiderProjects/ISP/ISP/bin/Debug/netcoreapp2.1/ISP.dll
+/home/imantas/RiderProjects/ISP/ISP/bin/Debug/netcoreapp2.1/ISP.pdb
+/home/imantas/RiderProjects/ISP/ISP/obj/Debug/netcoreapp2.1/ISP.csprojAssemblyReference.cache
+/home/imantas/RiderProjects/ISP/ISP/obj/Debug/netcoreapp2.1/ISP.csproj.CoreCompileInputs.cache
+/home/imantas/RiderProjects/ISP/ISP/obj/Debug/netcoreapp2.1/ISP.AssemblyInfoInputs.cache
+/home/imantas/RiderProjects/ISP/ISP/obj/Debug/netcoreapp2.1/ISP.AssemblyInfo.cs
+/home/imantas/RiderProjects/ISP/ISP/obj/Debug/netcoreapp2.1/ISP.dll
+/home/imantas/RiderProjects/ISP/ISP/obj/Debug/netcoreapp2.1/ISP.pdb

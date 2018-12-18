@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_ISP.-349434085.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="ISP" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="CategoriesController.cs" t="Include" />
+          <e p="ItemsController.cs" t="Include" />
+        </e>
+        <e p="ISP.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Bills.cs" t="Include" />
+          <e p="Carts.cs" t="Include" />
+          <e p="CartsHasItems.cs" t="Include" />
+          <e p="ISPContext.cs" t="Include" />
+          <e p="ItemCategories.cs" t="Include" />
+          <e p="Items.cs" t="Include" />
+          <e p="Manufacturers.cs" t="Include" />
+          <e p="PackingMaterials.cs" t="Include" />
+          <e p="PaymentTypes.cs" t="Include" />
+          <e p="Reviews.cs" t="Include" />
+          <e p="ShippingTypes.cs" t="Include" />
+          <e p="UserAddresses.cs" t="Include" />
+          <e p="Users.cs" t="Include" />
+          <e p="Warehouses.cs" t="Include" />
+          <e p="WarehousesHasItems.cs" t="Include" />
+        </e>
+        <e p="Models.zip" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="CategoriesRepository.cs" t="Include" />
+          <e p="ICategoriesRepository.cs" t="Include" />
+          <e p="IItemsRepository.cs" t="Include" />
+          <e p="IManufacturersRepository.cs" t="Include" />
+          <e p="IUsersRepository.cs" t="Include" />
+          <e p="ItemsRepository.cs" t="Include" />
+          <e p="ManufacturersRepository.cs" t="Include" />
+          <e p="UsersRepository.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ISP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ISP.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
