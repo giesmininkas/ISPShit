@@ -7,7 +7,7 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/imantas/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/imantas/.nuget/packages/;/usr/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.7.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.9.1</NuGetToolVersion>
   </PropertyGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -21,4 +21,10 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.razor.design/2.2.0/build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.razor.design/2.2.0/build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.all/2.1.6/build/netcoreapp2.1/Microsoft.AspNetCore.All.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.all/2.1.6/build/netcoreapp2.1/Microsoft.AspNetCore.All.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgT4Scaffolding Condition=" '$(PkgT4Scaffolding)' == '' ">/home/imantas/.nuget/packages/t4scaffolding/0.8.0</PkgT4Scaffolding>
+    <PkgMvcScaffolding Condition=" '$(PkgMvcScaffolding)' == '' ">/home/imantas/.nuget/packages/mvcscaffolding/1.0.9</PkgMvcScaffolding>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/home/imantas/.nuget/packages/microsoft.entityframeworkcore.tools/3.0.0-preview.18572.1</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">/home/imantas/.nuget/packages/microsoft.aspnetcore.razor.design/2.2.0</PkgMicrosoft_AspNetCore_Razor_Design>
+  </PropertyGroup>
 </Project>

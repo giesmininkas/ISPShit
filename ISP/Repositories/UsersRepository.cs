@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 using System.Web.Http.Results;
+using ISP.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Scaffolding.Internal;
 
@@ -23,10 +24,10 @@ namespace ISP.Models
             
         }
 
-        public async Task<IEnumerable<Users>> GetByID(int id)
+        public async Task<IEnumerable<Users>> GetByID(string username, string password)
         {
             return await (from user in IspContext.Users
-                where id == user.Id
+                where user.Username == username && user.Password == password
                 select user).ToListAsync();
         }
 

@@ -10,6 +10,7 @@
         <e p="Controllers" t="Include">
           <e p="CategoriesController.cs" t="Include" />
           <e p="ItemsController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
         </e>
         <e p="ISP.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
