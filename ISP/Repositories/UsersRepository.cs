@@ -30,6 +30,14 @@ namespace ISP.Models
                 where user.Username == username && user.Password == password
                 select user).ToListAsync();
         }
+        
+        public async Task<IEnumerable<Users>> GetByID(int id)
+        {
+            return await (from user in IspContext.Users
+                where user.Id == id
+                select user).ToListAsync();
+        }
+
 
         public async Task<int> Insert(Users user)
         {

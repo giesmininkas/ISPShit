@@ -7,6 +7,7 @@ namespace ISP.Repositories
     {
         Task<IEnumerable<Users>> GetUsers();
         Task<IEnumerable<Users>> GetByID(string username, string password);
+        Task<IEnumerable<Users>> GetByID(int id);
         Task<int> Insert(Users user);
         void Delete(int id);
         void Update(Users item);
