@@ -67,7 +67,7 @@ namespace ISP.Controllers
             return Ok();
         }
 
-        [HttpPost("/update")]
+        [HttpPost("update")]
         public async Task<IActionResult> Update([FromBody] ItemRequest item)
         {
             _itemsRepository.Update(new Items(){Id = item.id, Name = item.name, Description = item.description, Price = item.price});

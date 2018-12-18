@@ -1,4 +1,5 @@
 using ISP.Models;
+using ISP.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -26,6 +27,7 @@ namespace ISP
             
             services.AddScoped<ICategoriesRepository, CategoriesRepository>();
             services.AddScoped<IItemsRepository, ItemsRepository>();
+            services.AddScoped<IUsersRepository, UsersRepository>();
 
 
         }

@@ -16,10 +16,6 @@ namespace ISP
             
             BuildWebHost(args).Run();
             
-            
-            
-            
-            
             Console.WriteLine("Hello World!");
         }
         

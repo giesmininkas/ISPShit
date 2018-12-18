@@ -32,13 +32,13 @@ namespace ISP.Controllers
             public string password { set; get; }
         }
         
-        [HttpPost]
+        [HttpPost("login")]
         public async Task<IEnumerable<Users>> GetUsers([FromBody] pair p)
         {
             return await _usersRepository.GetByID(p.username, p.password);
         }
 
-        public class ItemRequest
+        /*public class ItemRequest
         {
             public int id { set; get; }
             public string name { set; get; }
@@ -47,9 +47,9 @@ namespace ISP.Controllers
             public string category { set; get; }
             public string manufacturer { set; get; }
 
-        }
+        }*/
         
-        [HttpPost("/register")]
+        [HttpPost("register")]
         public async Task<Users> Create([FromBody] Users item)
         {
             int id = await _usersRepository.Insert(item);
@@ -66,10 +66,10 @@ namespace ISP.Controllers
             return Ok();
         }
 
-        [HttpPost("/update")]
-        public async Task<IActionResult> Update([FromBody] ItemRequest item)
+        [HttpPost("update")]
+        public async Task<IActionResult> Update([FromBody] Users item)
         {
-            _usersRepository.Update(new Items(){Id = item.id, Name = item.name, Description = item.description, Price = item.price});
+            _usersRepository.Update(item);
             return Ok();
         }
     }
