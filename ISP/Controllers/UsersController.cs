@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ISP.Controllers
 {
-    [Route("api/items")]
+    [Route("api/users")]
     [EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
     public class UsersController : Controller
     {

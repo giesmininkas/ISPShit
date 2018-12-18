@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd12b993-69ec-4005-924c-2a27adc901ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ISP/Repositories/IUsersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISP/Repositories/IUsersRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISP/Repositories/UsersRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISP/Repositories/UsersRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISP/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ISP/Controllers/UsersController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ISP/Repositories/UsersRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="567">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <marker date="1545151792994" expanded="false" signature="6:232" ph="..." />
                 <marker date="1545151792994" expanded="true" signature="254:1785" ph="{...}" />
@@ -131,24 +130,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ISP/Controllers/UsersController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
-                <marker date="1545151661760" expanded="true" signature="6:237" ph="..." />
-                <marker date="1545151661760" expanded="true" signature="264:2348" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="416:2346" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="547:615" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="699:773" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="800:918" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="1020:1115" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="1149:1455" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="1559:1880" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="1717:1870" ph="/* int id = await _usersRepository.Insert(new Items(){Name = item.name, Description = item.description, Price = i ... */" />
-                <marker date="1545151661760" expanded="true" signature="1966:2053" ph="{...}" />
-                <marker date="1545151661760" expanded="true" signature="2161:2340" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="6:237" ph="..." />
+                <marker date="1545151900556" expanded="true" signature="264:2348" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="416:2346" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="547:615" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="699:773" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="800:918" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="1020:1115" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="1149:1455" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="1559:1880" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="1717:1870" ph="/* int id = await _usersRepository.Insert(new Items(){Name = item.name, Description = item.description, Price = i ... */" />
+                <marker date="1545151900556" expanded="true" signature="1966:2053" ph="{...}" />
+                <marker date="1545151900556" expanded="true" signature="2161:2340" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -327,9 +326,9 @@
         <option value="$PROJECT_DIR$/ISP/Repositories/ManufacturersRepository.cs" />
         <option value="$PROJECT_DIR$/ISP/Controllers/ItemsController.cs" />
         <option value="$PROJECT_DIR$/ISP/Models/ISPContext.cs" />
-        <option value="$PROJECT_DIR$/ISP/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ISP/Repositories/IUsersRepository.cs" />
         <option value="$PROJECT_DIR$/ISP/Repositories/UsersRepository.cs" />
+        <option value="$PROJECT_DIR$/ISP/Controllers/UsersController.cs" />
       </list>
     </option>
   </component>
@@ -452,12 +451,12 @@
       <workItem from="1544535108010" duration="1008000" />
       <workItem from="1544536157624" duration="14050000" />
       <workItem from="1544596627625" duration="655000" />
-      <workItem from="1545146675550" duration="5117000" />
+      <workItem from="1545146675550" duration="5224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25470000" />
+    <option name="totallyTimeSpent" value="25577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +473,7 @@
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Image Layers" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2600773" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2600773" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -490,7 +489,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.31477517" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.31477517" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5002761" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.32869378" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -926,27 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ISP/Controllers/UsersController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <marker date="1545151661760" expanded="true" signature="6:237" ph="..." />
-            <marker date="1545151661760" expanded="true" signature="264:2348" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="416:2346" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="547:615" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="699:773" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="800:918" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="1020:1115" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="1149:1455" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="1559:1880" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="1717:1870" ph="/* int id = await _usersRepository.Insert(new Items(){Name = item.name, Description = item.description, Price = i ... */" />
-            <marker date="1545151661760" expanded="true" signature="1966:2053" ph="{...}" />
-            <marker date="1545151661760" expanded="true" signature="2161:2340" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ISP/Controllers/ItemsController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -981,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ISP/Repositories/UsersRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="567">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <marker date="1545151792994" expanded="false" signature="6:232" ph="..." />
             <marker date="1545151792994" expanded="true" signature="254:1785" ph="{...}" />
@@ -995,6 +973,27 @@
             <marker date="1545151792994" expanded="true" signature="1381:1515" ph="{...}" />
             <marker date="1545151792994" expanded="true" signature="1561:1673" ph="{...}" />
             <marker date="1545151792994" expanded="true" signature="1701:1777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISP/Controllers/UsersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <marker date="1545151900556" expanded="true" signature="6:237" ph="..." />
+            <marker date="1545151900556" expanded="true" signature="264:2348" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="416:2346" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="547:615" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="699:773" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="800:918" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="1020:1115" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="1149:1455" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="1559:1880" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="1717:1870" ph="/* int id = await _usersRepository.Insert(new Items(){Name = item.name, Description = item.description, Price = i ... */" />
+            <marker date="1545151900556" expanded="true" signature="1966:2053" ph="{...}" />
+            <marker date="1545151900556" expanded="true" signature="2161:2340" ph="{...}" />
           </folding>
         </state>
       </provider>
